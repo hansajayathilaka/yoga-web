@@ -113,9 +113,34 @@ Which phases cover which requirements. Updated during roadmap creation.
 
 | Requirement | Phase | Status |
 |-------------|-------|--------|
-| INFRA-01 to INFRA-05 | TBD | Pending |
-| CMS-01 to CMS-06 | TBD | Pending |
-| PAGE-01 to PAGE-09 | TBD | Pending |
-| BLOG-01 to BLOG-04 | TBD | Pending |
-| GALLERY-01 to GALLERY-05 | TBD | Pending |
-| UX-01 to UX-03 | TBD | Pending |
+| INFRA-01 | Phase 1 | Pending |
+| INFRA-02 | Phase 1 | Pending |
+| INFRA-03 | Phase 1 | Pending |
+| INFRA-04 | Phase 1 | Pending |
+| INFRA-05 | Phase 1 | Pending |
+| CMS-01 | Phase 3 | Pending |
+| CMS-02 | Phase 3 | Pending |
+| CMS-03 | Phase 3 | Pending |
+| CMS-04 | Phase 3 | Pending |
+| CMS-05 | Phase 3 | Pending |
+| PAGE-01 | Phase 2 | Pending |
+| PAGE-02 | Phase 2 | Pending |
+| PAGE-03 | Phase 2 | Pending |
+| PAGE-04 | Phase 2 | Pending |
+| PAGE-05 | Phase 2 | Pending |
+| PAGE-06 | Phase 2 | Pending |
+| PAGE-07 | Phase 2 | Pending |
+| PAGE-08 | Phase 2 | Pending |
+| PAGE-09 | Phase 2 | Pending |
+| BLOG-01 | Phase 4 | Pending |
+| BLOG-02 | Phase 4 | Pending |
+| BLOG-03 | Phase 4 | Pending |
+| BLOG-04 | Phase 4 | Pending |
+| GALLERY-01 | Phase 4 | Pending |
+| GALLERY-02 | Phase 4 | Pending |
+| GALLERY-03 | Phase 4 | Pending |
+| GALLERY-04 | Phase 4 | Pending |
+| GALLERY-05 | Phase 4 | Pending |
+| UX-01 | Phase 2 | Pending |
+| UX-02 | Phase 2 | Pending |
+| UX-03 | Phase 2 | Pending |
