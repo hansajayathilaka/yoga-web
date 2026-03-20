@@ -49,7 +49,7 @@ The teacher can update content himself — without developer help — and every 
 - **Tech Stack**: Astro (SSG) + Decap CMS + Netlify + Cloudinary (images) — decided upfront
 - **Maintainability**: Teacher must be able to update content via CMS UI; no coding required post-launch
 - **Git-based workflow**: All content changes are Markdown commits to GitHub, triggering Netlify rebuild
-- **Image storage**: Git repo must stay lightweight — high-res photos go to Cloudinary, not the repo
+- **Image storage**: v1 and v2 store images in the Git repo; Cloudinary migration planned for v3 once repo size becomes a concern
 
 ## Key Decisions
 
@@ -58,7 +58,7 @@ The teacher can update content himself — without developer help — and every 
 | Astro over Hugo | Larger template ecosystem, better component model, strong 2025 community | — Pending |
 | Decap CMS over Contentful/Sanity | Git-based, zero-cost, integrates with Netlify Identity out of the box | — Pending |
 | Netlify over Vercel/GitHub Pages | Decap CMS needs Netlify Identity; Netlify Forms for zero-backend contact | — Pending |
-| Cloudinary for images | Prevents Git repo bloat from high-res photos; free tier covers small yoga site | — Pending |
+| Cloudinary deferred to v3 | v1/v2 use Git repo for images (simpler setup); migrate to Cloudinary in v3 when repo size warrants it | — Pending |
 | Classes timetable deferred | Content not ready; landing + blog + gallery is sufficient for launch | — Pending |
 
 ---
