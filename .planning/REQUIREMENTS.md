@@ -9,11 +9,11 @@
 
 ### Infrastructure & Deployment (INFRA)
 
-- [ ] **INFRA-01**: Site is deployed to Netlify free tier from a GitHub repository
-- [ ] **INFRA-02**: Every push to the main branch triggers an automatic Netlify rebuild and deploy
-- [ ] **INFRA-03**: Site is served over HTTPS with a custom domain (yogatherapylk.com or similar)
-- [ ] **INFRA-04**: Netlify Identity is enabled (invite-only mode) so the teacher can log into the CMS
-- [ ] **INFRA-05**: Netlify Git Gateway is enabled so Decap CMS can commit content to GitHub
+- [x] **INFRA-01**: Site is deployed to Netlify free tier from a GitHub repository
+- [x] **INFRA-02**: Every push to the main branch triggers an automatic Netlify rebuild and deploy
+- [x] **INFRA-03**: Site is served over HTTPS with a custom domain (yogatherapylk.com or similar)
+- [x] **INFRA-04**: Netlify Identity is enabled (invite-only mode) so the teacher can log into the CMS
+- [x] **INFRA-05**: Netlify Git Gateway is enabled so Decap CMS can commit content to GitHub
 
 ### CMS / Content Management (CMS)
 
@@ -113,11 +113,11 @@ Which phases cover which requirements. Updated during roadmap creation.
 
 | Requirement | Phase | Status |
 |-------------|-------|--------|
-| INFRA-01 | Phase 1 | Pending |
-| INFRA-02 | Phase 1 | Pending |
-| INFRA-03 | Phase 1 | Pending |
-| INFRA-04 | Phase 1 | Pending |
-| INFRA-05 | Phase 1 | Pending |
+| INFRA-01 | Phase 1 | Complete |
+| INFRA-02 | Phase 1 | Complete |
+| INFRA-03 | Phase 1 | Complete |
+| INFRA-04 | Phase 1 | Complete |
+| INFRA-05 | Phase 1 | Complete |
 | CMS-01 | Phase 3 | Pending |
 | CMS-02 | Phase 3 | Pending |
 | CMS-03 | Phase 3 | Pending |

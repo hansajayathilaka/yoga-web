@@ -12,7 +12,7 @@ Five phases to take the project from an empty repository to a live, self-managed
 
 Decimal phases appear between their surrounding integers in numeric order.
 
-- [ ] **Phase 1: Infrastructure** - Scaffold AstroWind project locally and push to GitHub (Netlify deferred to Phase 5)
+- [x] **Phase 1: Infrastructure** - Scaffold AstroWind project locally and push to GitHub (Netlify deferred to Phase 5) (completed 2026-03-20)
 - [ ] **Phase 2: Static Pages** - All visible pages built, branded, mobile-responsive, and deployed
 - [ ] **Phase 3: CMS Integration** - Decap CMS, Netlify Identity, and Git Gateway wired and verified end-to-end
 - [ ] **Phase 4: Blog and Gallery** - Blog and photo gallery live, CMS-managed, and populated with real content
@@ -32,7 +32,7 @@ Decimal phases appear between their surrounding integers in numeric order.
 **Plans**: 1 plan
 
 Plans:
-- [ ] 01-01-PLAN.md — Scaffold AstroWind project and push to GitHub
+- [x] 01-01-PLAN.md — Scaffold AstroWind project and push to GitHub
 
 ### Phase 2: Static Pages
 **Goal**: Every public-facing page is visible, correctly branded, and fully functional without a CMS
@@ -107,7 +107,7 @@ Phases execute in numeric order: 1 → 2 → 3 → 4 → 5
 
 | Phase | Plans Complete | Status | Completed |
 |-------|----------------|--------|-----------|
-| 1. Infrastructure | 0/1 | Not started | - |
+| 1. Infrastructure | 1/1 | Complete   | 2026-03-20 |
 | 2. Static Pages | 0/3 | Not started | - |
 | 3. CMS Integration | 0/3 | Not started | - |
 | 4. Blog and Gallery | 0/3 | Not started | - |
