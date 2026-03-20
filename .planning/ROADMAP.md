@@ -12,7 +12,7 @@ Five phases to take the project from an empty repository to a live, self-managed
 
 Decimal phases appear between their surrounding integers in numeric order.
 
-- [ ] **Phase 1: Infrastructure** - GitHub + Netlify pipeline live with placeholder deploy
+- [ ] **Phase 1: Infrastructure** - Scaffold AstroWind project locally and push to GitHub (Netlify deferred to Phase 5)
 - [ ] **Phase 2: Static Pages** - All visible pages built, branded, mobile-responsive, and deployed
 - [ ] **Phase 3: CMS Integration** - Decap CMS, Netlify Identity, and Git Gateway wired and verified end-to-end
 - [ ] **Phase 4: Blog and Gallery** - Blog and photo gallery live, CMS-managed, and populated with real content
@@ -21,19 +21,18 @@ Decimal phases appear between their surrounding integers in numeric order.
 ## Phase Details
 
 ### Phase 1: Infrastructure
-**Goal**: A working deployment pipeline that auto-deploys on every push to GitHub
+**Goal**: A working AstroWind project scaffolded locally and pushed to GitHub, ready for subsequent phases to build upon
 **Depends on**: Nothing (first phase)
 **Requirements**: INFRA-01, INFRA-02, INFRA-03, INFRA-04, INFRA-05
+**Note**: INFRA-01 is partially addressed (GitHub repo created). INFRA-02 through INFRA-05 (Netlify auto-deploy, HTTPS/domain, Netlify Identity, Git Gateway) are deferred to Phase 5 per user decision.
 **Success Criteria** (what must be TRUE):
-  1. Pushing a commit to the main branch causes a new Netlify deploy to complete within 3 minutes
-  2. The deployed site is accessible over HTTPS at the Netlify URL (or custom domain)
-  3. Netlify Identity is enabled in invite-only mode and Netlify Git Gateway is active
-  4. The Astro project builds without errors in the Netlify build environment
-**Plans**: TBD
+  1. AstroWind-based Astro project builds locally without errors (`npm run build` exits 0)
+  2. Project is committed on the `main` branch and pushed to a GitHub repository
+  3. Node.js version is pinned to 20 via .nvmrc
+**Plans**: 1 plan
 
 Plans:
-- [ ] 01-01: Scaffold Astro project from template, push to GitHub, connect to Netlify
-- [ ] 01-02: Configure netlify.toml, enable Netlify Identity (invite-only) and Git Gateway, verify HTTPS
+- [ ] 01-01-PLAN.md — Scaffold AstroWind project and push to GitHub
 
 ### Phase 2: Static Pages
 **Goal**: Every public-facing page is visible, correctly branded, and fully functional without a CMS
@@ -108,7 +107,7 @@ Phases execute in numeric order: 1 → 2 → 3 → 4 → 5
 
 | Phase | Plans Complete | Status | Completed |
 |-------|----------------|--------|-----------|
-| 1. Infrastructure | 0/2 | Not started | - |
+| 1. Infrastructure | 0/1 | Not started | - |
 | 2. Static Pages | 0/3 | Not started | - |
 | 3. CMS Integration | 0/3 | Not started | - |
 | 4. Blog and Gallery | 0/3 | Not started | - |
